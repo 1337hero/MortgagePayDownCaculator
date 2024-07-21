@@ -1,3 +1,10 @@
+# dependencies
+node_modules
+
+#production
+dist
+dist-ssr
+
 # Logs
 logs
 *.log
@@ -7,18 +14,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+#cache
+.eslintcache
+
+# local env files
+# do not commit any .env files to git
+.env
+.env*.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+._*
+.Spotlight-V100
+.Trashes

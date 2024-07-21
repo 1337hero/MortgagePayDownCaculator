@@ -2,7 +2,6 @@ import { MortgageForm } from '@/components/MortgageForm'
 import { MortgagePayoffChart } from '@/components/MortgagePayoffChart'
 import { ResultsDisplay } from '@/components/ResultsDisplay'
 import { useMortgageCalculator } from '@/hooks/useMortgageCalculator'
-import React from 'react'
 
 function App() {
   const { mortgageData, handleInputChange, handleSubmit, result } = useMortgageCalculator()

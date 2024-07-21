@@ -1,0 +1,8 @@
+node_modules
+public
+dist
+egress-map
+/*.log
+yarn.lock
+yarn.error.log
+.github
