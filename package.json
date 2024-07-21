@@ -13,7 +13,7 @@
     "node": ">=20.11.0"
   },
   "dependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^2.56.0",
+    "@rollup/rollup-linux-x64-gnu": "",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-select": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.0",
